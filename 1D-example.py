@@ -1,19 +1,19 @@
+#!/usr/bin/env python3
 ''' Present an interactive function explorer with slider widgets.
 
-Scrub the sliders to change the properties of the ``sin`` curve, or
-type into the title text box to update the title of the plot.
+Scrub the sliders to change the properties of the filter.
 
 Use the ``bokeh serve`` command to run the example by executing:
 
-    bokeh serve sliders.py
+    python3 -m bokeh serve 1D-example.py
 
 at your command prompt. Then navigate to the URL
 
-    http://localhost:5006/sliders
+    http://localhost:5006/1D-example
 
 in your browser.
-
 '''
+
 import numpy as np
 
 from bokeh.io import curdoc
